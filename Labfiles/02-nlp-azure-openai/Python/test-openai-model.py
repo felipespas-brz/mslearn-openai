@@ -38,7 +38,7 @@ def main():
             max_tokens=60
         )
         
-
+        print(response)
         print("Summary of text: " + response.choices[0].text + "\n")
 
     except Exception as ex:
